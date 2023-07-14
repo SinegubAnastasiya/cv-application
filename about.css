@@ -91,3 +91,54 @@ header nav p:not(:last-child) {
     background-color: #181717;
     margin-top: 110px;
 }
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 71px;
+}
+
+.contacts .img {
+    background-image: url(image.png);
+    width: 21px;
+    height: 24px;
+    background-size: contain;
+    transform: rotate(270deg);
+    background-repeat: no-repeat;
+    margin-left: 41px;
+}
+
+.contacts div {
+    display: flex;
+}
+
+.contacts p {
+    color: var(--main-black, #181717);
+    font: 400 32px DM Sans;
+    width: 370px;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 135px;
+}
+
+footer .links {
+    display: flex;
+}
+
+footer .links p:not(:last-child) {
+    margin-right: 37px;
+}
+
+footer p {
+    color: #2429AF;
+    font-weight: 500;
+    font: 500 22px DM Sans;
+}
+
+footer .links p {
+    color: #181717
+}
