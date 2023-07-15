@@ -56,7 +56,7 @@ main section {
 }
 
 .img-arrow {
-    background-image: url(image.png);
+    background-image: url(../assets/image.png);
     width: 33.608px;
     height: 39.942px;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ main section {
 }
 
 .img-block {
-    background-image: url(Thumbnail.png);
+    background-image: url(../assets/Thumbnail.png);
     width: 640px;
     height: 365px;
     background-repeat: no-repeat;

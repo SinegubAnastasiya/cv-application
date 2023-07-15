@@ -99,7 +99,7 @@ header nav p:not(:last-child) {
 }
 
 .contacts .img {
-    background-image: url(image.png);
+    background-image: url(../assets/image.png);
     width: 21px;
     height: 24px;
     background-size: contain;
