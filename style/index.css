@@ -4,6 +4,12 @@
     font-style: normal;
 }
 
+body {
+    background-color: #F3F3F3;
+    width: 1200px;
+    margin: auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -29,6 +35,11 @@ header nav p {
     line-height: 120%;
     letter-spacing: -0.66px;
     font: 500 22px DM Sans;
+}
+
+header nav p:hover,
+footer nav p:hover {
+    text-decoration: underline;
 }
 
 main section {

@@ -30,7 +30,8 @@ header nav p {
     font: 500 22px DM Sans;
 }
 
-header nav p:hover {
+header nav p:hover,
+footer .links p:hover {
     text-decoration: underline;
 }
 

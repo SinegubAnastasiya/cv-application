@@ -30,6 +30,7 @@ header nav p {
     font: 500 22px DM Sans;
 }
 
+footer .links p:hover,
 header nav p:hover {
     text-decoration: underline;
 }
@@ -65,6 +66,10 @@ main .form .inputs input {
     height: 50px;
     padding-left: 15px;
     margin-top: 30px;
+}
+
+main .form .inputs input:focus {
+    background-color: rgb(212, 239, 245);
 }
 
 main .form .text p {
@@ -108,3 +113,4 @@ footer p {
 footer .links p {
     color: #181717
 }
+
