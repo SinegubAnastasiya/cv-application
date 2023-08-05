@@ -54,30 +54,30 @@ main p {
     font: 400 22px DM Sans;
 }
 
-main .form {
+.form {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 52px;
 }
 
-main .form .inputs input {
+.form .inputs input {
     width: 678px;
     height: 50px;
     padding-left: 15px;
     margin-top: 30px;
 }
 
-main .form .inputs input:focus {
+.form .inputs input:focus {
     background-color: rgb(212, 239, 245);
 }
 
-main .form .text p {
+.form .text p {
     margin-top: 30px;
     padding-left: 32px;
 }
 
-main .btn {
+.btn {
     width: 180px;
     height: 32px;
     background-color: #000000;
